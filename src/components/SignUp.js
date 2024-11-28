@@ -115,7 +115,7 @@ const SignUp = () => {
     console.log("Data being sent:", { username, password, role });
 
     try {
-      const response = await axios.post("https://backend-knov.onrender.comregister/", {
+      const response = await axios.post("https://backend-knov.onrender.com/register/", {
         username,
         password,
         role: role.toLowerCase(), // Ensure the role is always lowercase
