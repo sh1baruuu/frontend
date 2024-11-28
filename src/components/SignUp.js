@@ -115,7 +115,7 @@ const SignUp = () => {
     console.log("Data being sent:", { username, password, role });
 
     try {
-      const response = await axios.post("https://frontend-two-sigma-21.vercel.app/register/", {
+      const response = await axios.post("https://backend-knov.onrender.comregister/", {
         username,
         password,
         role: role.toLowerCase(), // Ensure the role is always lowercase
